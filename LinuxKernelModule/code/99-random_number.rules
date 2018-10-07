@@ -1,0 +1,2 @@
+#Rules file for the random_number device driver
+KERNEL=="random_number", SUBSYSTEM=="random_class", MODE="0666"
